@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Poppins;
+}
+
+.nav{
+	padding-top: 25px;
+}
+
+a{
+	text-decoration: none;
+	color:white
+}
+
+.navbar{
+	height: 100px;
+	clear:both;
+	overflow:auto;
+	background-color: rgb(0,191,99);
+	border-bottom: 3px solid yellow;
+}
+
+.logo img{
+	padding-left: 10px;
+	float:left;
+}
+
+ul li{
+	color: white;
+	display: inline-block; 
+	padding:10px;
+	font-size:20px; 
+	cursor: pointer;
+}
+
+ul li:hover{
+	color:rgb(0,191,99);
+	background-color: white;
+	border-radius: 10px;
+}
+
+.app {
+	display: flex;
+	min-height: 100vh;
+}
+
+.menu-toggle {
+	display: none;
+	position: fixed;
+	top: 1.2rem;
+	right: 2rem;
+	width: 60px;
+	height: 60px;
+	border-radius: 99px;
+	background-color: rgb(0,191,99);
+	cursor: pointer;
+}
+
+.hamburger {
+	position: relative;
+	top: calc(50% - 2px);
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 32px;
+}
+
+.hamburger > span,
+.hamburger > span::before,
+.hamburger > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  border-radius: 99px;
+  background-color: #FFF;
+  transition-duration: .25s;
+}
+
+.hamburger > span::before {
+  content: '';
+  top: -8px;
+}
+.hamburger > span::after {
+  content: '';
+  top: 8px;
+}
+.menu-toggle.is-active .hamburger > span {
+  transform: rotate(45deg);
+}
+.menu-toggle.is-active .hamburger > span::before {
+  top: 0;
+  transform: rotate(0deg);
+}
+.menu-toggle.is-active .hamburger > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+
+.sidebar {
+	flex: 1 1 0;
+	max-width: 200px;
+	padding: 2rem 1rem;
+	background-color: rgb(0,191,99);
+}
+
+.sidebar h3 {
+	color: white;
+	font-size: 1,5rem;
+	text-transform: uppercase;
+	margin-bottom: 0.5em;
+}
+
+.sidebar .menu {
+	margin: 0 -1rem;
+}
+
+.sidebar .menu .menu-item {
+	display: block;
+	padding: 1em;
+	color: #FFF;
+	text-decoration: none;
+	transition: 0.2s linear;
+}
+
+.sidebar .menu .menu-item:hover{
+	color: white;
+	border-right: 5px solid white;
+}
+
+.content {
+	flex: 1 1 0;
+	width: 100%;
+}
+
+.container{
+	padding: 10px;
+	margin: 15px;
+    background-color: #f1f1f1;
+    height: 500px;
+    align-content: center;
+    text-align: center;
+}
+
+.title{
+	font-size:50px;
+}
+
+.content p{
+	position: relative;
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+.content button{
+	margin-top: 10px;
+	border: none;
+	color: white;
+	border-radius: 10px;
+	padding: 15px 32px;
+	font-size: 16px;
+	cursor: pointer;
+	background-color: rgb(0,191,99);
+}
+
+.breakline{
+    background-color:rgb(0,191,99);
+    color: white;
+    text-align: center;
+    padding: 10px;
+	margin: 15px;
+  }
+
+.row-1{
+	text-align: center;
+	margin-top: 15px;
+	display: flex;
+	flex-direction: row;
+}
+
+  .column-1 {
+    padding: 10px;
+    height: 250px;
+  }
+
+  .column-1 p{
+    text-align: center;
+	font-size: 16px;
+  }
+
+  h2{
+	margin-top: 10px;
+    text-align: center;
+	font-size: 22px;
+  }
+
+  .row-2{
+	text-align: center;
+	margin-top: 15px;
+	display: flex;
+	flex-direction: row;
+  }
+
+  .column-2, .column{
+	margin-left: 10px;
+    width: 33%;
+    padding: 20px;
+	border-radius: 10px;
+  }
+  
+  .picture{
+    border-radius: 20px;
+    width: 350px; 
+    height: 300px;
+  }
+
+  .picture-1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
+    width: 100px; 
+    height: 100px;
+  }
+  
+  .column-2{
+    margin-left: 5px;
+  }
+
+  h2{
+    text-align: center;
+  }
+
+  .macros{
+    font-weight: bolder;
+  }
+
+  .macros1{
+    font-weight: bolder;
+    font-size: 20px;
+  }
+
+  p{
+    padding: 0px 10px;
+  }
+
+  .column1 {
+    padding-left: 10px;
+    float: left;
+	text-align: start;
+    width: 50%;
+  }
+
+  .column2 {
+    padding-right: 10px;
+    float: left;
+    width: 50%;
+    text-align: end;
+  }
+
+  .footer {
+	margin-top: 20px;
+	padding: 20px;
+	text-align: center;
+	background-color: rgb(0,191,99);
+	border-top: 3px solid yellow;
+    align-content: center;
+    text-align: center;
+    color: white;
+    line-height: 15px;
+  }
+
+  @media (min-width: 3000px) {
+	body{
+		width: 80%;
+		margin: auto;
+	}
+}
+
+  @media (max-width: 2000px) {
+	.column-1 {
+		width: 70%;
+		padding: 10px;
+		height: 330px;
+	}
+  }
+
+  @media (max-width: 1300px) {
+	.menu-toggle {
+		display: block;
+		z-index: 1;
+	}
+
+	.sidebar {
+		z-index: 1;
+		position: fixed;
+		top: 0;
+		left: -300px;
+		height: 100vh;
+		width: 100%;
+		max-width: 300px;
+		transition: 0.2s linear;
+	}
+
+	.sidebar.is-active {
+		left: 0;
+	}
+
+	.content {
+		height: 700px;
+	}
+
+	.row-1{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.column-1 {
+		width: 70%;
+		padding: 10px;
+		height: 250px;
+	}
+	
+	.row-2{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.column1 {
+		float: left;
+		width: 50%;
+	}
+
+	.column-2, .column{
+		margin-bottom: 10px;
+		width: 60%;
+		padding: 10px;
+	}
+}
+
+@media (max-width: 640px) {
+	.nav{
+		display: none;
+	}
+
+	ul li{
+		font-size:15px; 
+
+	}
+	.title{
+		font-size: 30px;
+	}
+	
+	.content p{
+		position: relative;
+		margin-top: 10px;
+		font-size: 15px;
+	}
+	
+	.content button{
+		font-size: 16px;
+	}
+
+	.column-1 {
+		width: 70%;
+		padding: 10px;
+		height: 350px;
+	}
+
+	.column-2, .column{
+		width: 90%;
+	}
+
+	.picture{
+		border-radius: 20px;
+		width: 250px; 
+		height: 200px;
+	  }
+}
+
+
+

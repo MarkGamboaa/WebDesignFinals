@@ -1,0 +1,40 @@
+
+
+.container{
+	padding: 10px;
+	margin: 15px;
+    background-color: #f1f1f1;
+    height: 560px;
+    align-content: center;
+    text-align: center;
+}
+
+.container1{
+	padding: 10px;
+	margin: 50px;
+    align-content: center; 
+    text-align: center;
+}
+
+h3{
+	margin-top: 20px;
+}
+
+.center {
+	border-radius: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+  }
+
+  .img{
+	border-radius: 10px;
+  }
+
+
+  @media (max-width: 640px) {
+	.img{
+		border-radius: 10px;
+		width: 300px; 
+	  }
+}

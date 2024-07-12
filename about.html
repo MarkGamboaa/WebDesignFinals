@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>About</title>
+	<link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="about.css">
+	<link rel="icon" href="Picture/Logo.png">
+</head>
+<body>
+
+	<div class="navbar">
+    	<div class="logo">
+          <a href="index.html"><img src="Picture/Logo.png" alt="" width="90"/></a>
+        </div>
+        <div class="nav">
+          <ul>
+            <a href="index.html"><li>Home</li></a>
+            <a href="about.html"><li>About</li></a>
+            <a href="menu.html"><li>Menu</li></a>
+            <a href="recipe.html"><li>Recipe</li></a>
+            <a href="contact.html"><li>Contact</li></a>
+          </ul>
+          </div>
+
+		  <div class="menu-toggle">
+			<div class="hamburger">
+				<span></span>
+			</div>
+		</div>
+    </div>
+
+	<div class="app">
+		<div class="sidebar">
+			<nav class="menu">
+				<a href="index.html" class="menu-item is-active">Home</a>
+				<a href="about.html" class="menu-item">About</a>
+				<a href="menu.html" class="menu-item">Menu</a>
+				<a href="recipe.html" class="menu-item">Recipe</a>
+				<a href="contact.html" class="menu-item">Contacts</a>
+				<a href="ordernow.html" class="menu-item">Order Now</a>
+			</nav>
+
+		</div>
+
+        <div class="content">
+			<div class="container">
+				<h1 class="title">About Us</h1>
+
+				<p>
+                    Makro curates delicious, nutritious food options at wholesale club prices, making healthy eating accessible and affordable for everyone. We offer a wide variety of fresh produce, lean proteins, whole grains, and healthy pantry staples, all sourced from trusted suppliers with quality ingredients and sustainable practices. Buy in bulk and save on essentials, perfect for families, meal prep, or value seekers. Discover healthy recipes, meal planning tips, and nutritional guidance on our website and social media. Makro is your one-stop shop for healthy eating, inspiring you to explore new flavors and make healthy choices a way of life. Join the Makro family and unlock a world of healthy possibilities with exclusive discounts, personalized recommendations, and member-only events.</p>
+			</div>
+
+
+
+
+			<div class="container1">
+				<img class='img' src="Picture/Chief cooking.jpg" alt="" class="center" width="59%">
+
+				<h3>OUR MISSION</h3>
+
+				<h1>Making dieting easy for everyone</h1>
+
+				<p>Makro throws dieting a curveball by offering a treasure trove of pre-portioned, high-quality ingredients at wholesale prices. This way, you can ditch the calorie counting and focus on creating delicious, healthy meals that fit your macros, saving you time at the store and eliminating the stress of portion control.</p>
+
+			</div>
+
+
+			<div class="container1">
+				<img class='img' src="Picture/Kitchen cooking.jpg" alt="" class="center" width="59%">
+
+				<h3>OUR STORY</h3>
+
+				<h1>Started at a tiny apartment kitchen</h1>
+
+				<p>healthy meals that were delicious and affordable. Frustrated by bland diet options we are offering healthy twists on classics, meal prep hacks, and budget-friendly grocery guides. It resonated. Blossomed into a vibrant online community, a one-stop shop for healthy eating. Now, Makro offers personalized meal plans, grocery delivery partnerships, and even chiefs and dietitians. From a lonely blog to a thriving online haven, Makro proves healthy eating can be delicious, affordable, and anything but lonely.</p>
+			</div>
+
+			<div class="footer">
+				<img class="logofooter" src="./Picture/Logo.png" alt="" width="50px">
+				<h2>Mark Gerard G. Gamboa</h2>
+				<p>markgerardgamboa.gmail.com</p>
+			</div>
+        </div>
+
+
+	</div>
+
+	
+
+	<script>
+		const menu_toggle = document.querySelector('.menu-toggle');
+		const sidebar = document.querySelector('.sidebar');
+
+		menu_toggle.addEventListener('click', () => {
+			menu_toggle.classList.toggle('is-active');
+			sidebar.classList.toggle('is-active');
+		});
+	</script>
+</body>
+</html>
