@@ -28,4 +28,28 @@ h3{
 		width: 100%;
 		height: auto;
 	  }
+
+	h3{
+		font-size: 15px;
+	}
+
+	h1{
+		font-size: 20px;
+	}
+
+	.container1{
+		margin: 10px;
+	}
+}
+
+@media (min-width: 3000px) {
+	.container1{
+		margin: 10px 500px;
+	}
+}
+
+@media (min-width: 2000px) {
+	.container1{
+		margin: 10px 500px;
+	}
 }
