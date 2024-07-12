@@ -206,9 +206,11 @@ ul li:hover{
 
   .column-2, .column{
 	margin-left: 10px;
-    width: 33%;
+    width: 32%;
     padding: 20px;
 	border-radius: 10px;
+    background: #fff; 
+	box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2); 
   }
   
   .picture{
@@ -227,7 +229,7 @@ ul li:hover{
   }
   
   .column-2{
-    margin-left: 5px;
+    margin-left: 10px;
   }
 
   h2{
