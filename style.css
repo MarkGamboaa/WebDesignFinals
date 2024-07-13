@@ -391,6 +391,7 @@ ul li:hover{
 
 	.column-2, .column{
 		width: 90%;
+		margin: 5px 0px;
 	}
 
 	.picture{
@@ -398,6 +399,7 @@ ul li:hover{
 		width: 250px; 
 		height: 200px;
 	  }
+
 }
 
 

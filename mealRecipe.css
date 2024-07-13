@@ -58,11 +58,16 @@ h2{
 p, h4{
 	font-weight: normal;
 	font-size: 14;
+
+}
+
+.serving{
 	text-align: center;
 }
 
 h4{
 	margin-bottom: 15px;
+	text-align: center;
 }
 
 span{
